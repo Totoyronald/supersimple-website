@@ -48,7 +48,14 @@ canvas {
 #nav>img {
     width: 10%;
 }
-
+.navbar a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 #nav>button {
     padding: 20px 10px;
     border-radius: 10px;
@@ -58,9 +65,13 @@ canvas {
 }
 
 #center-nav>a {
-    text-decoration: none;
-    color: #000;
-    font-size: 15px;
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none
+
 }
 
 #page>h1 {
